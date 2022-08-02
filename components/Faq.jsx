@@ -89,7 +89,7 @@ function Faq() {
                 : "h-0 opacity-0"
             }
           >
-            Yes
+            TBD
           </div>
         </Accordion>
         <Accordion
