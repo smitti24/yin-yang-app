@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@font-face {
+  font-family: 'player2p';
+  src: url('../public/fonts/PressStart2P-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'default';
+  src: url('../public/fonts/Anton-Regular.ttf');
+}
+
+@layer {
+  body {
+    @apply bg-[#141414]
+    
+  }
+
+  h1 {
+    @apply text-white
+  }
+
+  li {
+    @apply 
+    font-bold 
+    text-white
+  
+    font-pixel 
+    cursor-pointer 
+    hover:animate-bounce 
+    hover:text-[#232323]
+  }
+
+  .nav-icons {
+    @apply text-white w-12 text-[64px] hover:text-[#232323] cursor-pointer hover:animate-bounce 
+  }
+
+  .animation-delay-75 {
+    animation-delay: 75ms;
+  }
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+  .animation-delay-1000 {
+    animation-delay: 1s;
+  }
+  
+}
+
