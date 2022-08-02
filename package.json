@@ -16,6 +16,7 @@
     "react-audio-player": "^0.17.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
+    "react-scroll": "^1.8.7",
     "tailwindcss-animation-delay": "^1.0.7",
     "use-sound": "^4.0.1"
   },

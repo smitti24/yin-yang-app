@@ -3,7 +3,7 @@ import BossCard from "./BossCard";
 
 function TheGang() {
   return (
-    <div className="max-w-[1240px] mx-auto px-4 py-16">
+    <div name="gang" className="max-w-[1240px] mx-auto px-4 py-16">
       <div className="flex w-full justify-center text-5xl font-default mb-20 text-white md:text-[5rem] font-extrabold">
         The Gang
       </div>

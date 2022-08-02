@@ -30,7 +30,7 @@ function Faq() {
   };
 
   return (
-    <div className="max-w-[1240px] m-auto px-4 py-16">
+    <div name="faq" className="max-w-[1240px] m-auto px-4 py-16">
       <div className="flex w-full justify-center text-center text-5xl font-default mb-20 text-white md:text-[5rem] font-extrabold">
         Frequently asked questions
       </div>
@@ -51,7 +51,11 @@ function Faq() {
             }
           >
             The official Yin Yang Discord:{" "}
-            <a href="https://discord.gg/dystoapez" target="_blank">
+            <a
+              href="https://discord.gg/dystoapez"
+              target="_blank"
+              className="underline"
+            >
               https://discord.gg/dystoapez
             </a>
           </div>
